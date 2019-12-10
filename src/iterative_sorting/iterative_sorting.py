@@ -15,7 +15,7 @@ def selection_sort( arr ):
 
     return arr
 arr = [2,7,9,1,5,0,3,8,4,6]
-# print(selection_sort(arr))
+print(selection_sort(arr))
 
 # TO-DO:  implement the Bubble Sort function below
 def bubble_sort( arr ):
@@ -34,7 +34,7 @@ def bubble_sort( arr ):
 
 
     return arr
-# print(bubble_sort(arr))
+print(bubble_sort(arr))
 
 # STRETCH: implement the Count Sort function below
 def count_sort( arr, maximum=-1 ):
