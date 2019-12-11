@@ -33,10 +33,9 @@ def merge_sort( arr ):
     right_sort = merge_sort(right)
 
     return merge(left_sort, right_sort)
-    
+
 print(merge_sort([2,3,7,8,9,0,5,8,3]))
-print(0,2,3,3,5,7,8,8,9)
-# merge_sort([2,3,7,8,9,0,5,8,3])
+print([0,2,3,3,5,7,8,8,9])
 
 # STRETCH: implement an in-place merge sort algorithm
 def merge_in_place(arr, start, mid, end):
@@ -78,4 +77,4 @@ def quicksort(data):
 
     return quicksort(left) + pivot + quicksort(right)
 
-# print(quicksort([2,3,7,8,1,9,0,5,8,3]))
+print(quicksort([2,3,7,8,1,9,0,5,8,3]))
